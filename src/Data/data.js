@@ -2,16 +2,14 @@ export const Project=[
   {  
     id:1,
     name:"Todo list Project",
-    img:"../Images/image.png",
-    desc:"Allows you to modify, add and delete tasks",
-    gitLink:'https://github.com/hkaur108/TodoList.git'
+    img:"../Images/projectImages/todo.png",
+    gitLink:'https://hkaur108.github.io/todolist/'
   },
     {  
     id:2,
     name:"E-commerce Website",
-    img:"../Images/ecommerce2.png",
-    desc:"Exhibits various phone models and prices.",
-    gitLink:'https://github.com/hkaur108/e-commerce.git'
+    img:"../Images/projectImages/mobile.jpeg",
+    gitLink:'https://hkaur108.github.io/e-commerce/'
 
   },
     
@@ -19,8 +17,25 @@ export const Project=[
     id:3,
     name:"Shopping Cart Website",
     img:"../Images/shopp.png",
-    desc:"Add, delete and modify furniture items.",
-    gitLink:'https://github.com/hkaur108/shopping-cart.git'
-}
+    gitLink:'https://hkaur108.github.io/ShoppingCart/'
+},
+ {  
+    id:4,
+    name:"Tic Tac Toe Game",
+    img:"../Images/projectImages/tictac.jpeg",
+    gitLink:'https://hkaur108.github.io/tictactoe/'
+},
+//  {  
+//     id:5,
+//     name:"URL Shortner Project",
+//     img:"../Images/projectImages/urls.png",
+//     gitLink:'https://github.com/hkaur108/shopping-cart.git'
+// },
+// {  
+//     id:6,
+//     name:"QR Code Generator",
+//     img:"../Images/projectImages/qrCode.png",
+//     gitLink:'https://github.com/hkaur108/shopping-cart.git'
+// }
 
 ]

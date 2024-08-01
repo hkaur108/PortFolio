@@ -5,6 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Slabo+27px&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 *{
   margin:0;
   padding:0;
@@ -16,6 +18,18 @@
   font-family: "Slabo 27px", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 
@@ -32,23 +46,25 @@
   --mainColor:#1679AB;
   --mainSkillsPallete:#EEF7FF;
   --mainLetterSpacing:0.1rem;
+  --mainBodyBackgroundColor:#F0EBE3!important;
+  --mainBodyColor:#131842;
 
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Slabo 27px", serif!important;
+  color:var(--mainBodyColor)!important;
+  background-color: var(--mainBodyBackgroundColor)!important;
 
 }
 
 /* Navbar styling */
 
 .navbarBackground{
-    /* position:sticky !important; */
-    top:0;
-    z-index: 10;
-    opacity: 0.9;
-    box-shadow: 5px 5px 20px rgb(137, 207, 137) !important;
-
+  font-family: "Slabo 27px", serif;
+  font-weight: 600;
+  font-style: normal;
+  color:var(--mainBodyColor);
 }
 
 
@@ -59,23 +75,24 @@ body{
 
 .home-main-container{
   width:100%;
-  min-height: 80vh;
+  min-height: 100vh;
   height:100%;
   overflow:hidden;
-  background-image: url('../public/Images/aboutback.jpg');
+  background-image: url('../public/Images/pexels-andrew-6633920.jpg');
   /* transform: translate3d(0, 0, 1px); */
-  background-size: 100% 100%;
+  background-size: cover;
   position: relative;
-  font-family: "Playwrite RO", cursive;
+  font-family: "dm-serif-display-regular-italic";
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 600;
   font-style: normal;
   background-repeat: no-repeat;
   opacity: 1;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   image-rendering: -webkit-optimize-contrast!important;
   letter-spacing: var(--mainLetterSpacing);
+
 }
 
 
@@ -91,9 +108,10 @@ body{
 }
 
 /********************* about container********************* */
+
 .about-container{
   width:100%;
-  max-width:1150px;
+  max-width:1170px;
   min-height:60vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -101,7 +119,7 @@ body{
   align-items: center;
   justify-content: center;
   row-gap: 3rem;
-  color:var(--mainColor)
+
 
 }
 .about-description{
@@ -123,12 +141,9 @@ body{
 
 .skills-main-container{
   width:100%;
-  min-height:80vh;
+  min-height:70vh;
   /* max-width:1170px; */
-  opacity: 0.8;
-  color:var(--mainColor);
   margin:auto;
-  background-color: var(--mainSkillsPallete);
 }
 
 .skills-wrapper{
@@ -256,28 +271,29 @@ position: static;
 .project-container{
   width:100%;
   max-width:1170px;
+  margin:2rem auto;
+  padding:2rem;
 }
-
-.project-container h1{
-  color: var(--mainColor) !important;
-}
-
-.projhead-Wrapper{
-  width:100%;
-  margin: auto;
-  display:grid;
-  grid-template-columns: repeat(auto-fit,minmax(260px, 1fr));
-  column-gap: 2rem;
-  row-gap: 2rem;
+.imgContainer{
+  width:150px;
+  height:150px;
+  margin: 5px auto;
+  display: flex;
   align-items: center;
   justify-content: center;
-
+  padding: 5px;
+  
 }
 
 .formatProjImg{
-  width:100%;
-  height:100%;
-  object-fit: cover;
+  max-width:100%;
+  height:auto;
+  object-fit:fill;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 
@@ -295,20 +311,17 @@ position: static;
 
 /* ********************Contact's Page ************ */
 .contact-container{
- background-color: #95D2B3;
-
+  background-color: var(--mainBodyColor);
+  color:var(--mainBackGround);
+  width:100%;
 }
 
 
 .contact-wrapper{
   width:100%;
-  max-width: 1070px;
+  height:5vh;
+  max-width: 1170px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-  align-items: center;
-  justify-content: center;
-  color:#fff;
-  font-size: 1.80rem;
   column-gap: 2rem;
 
 }
