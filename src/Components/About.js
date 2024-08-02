@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import '../App.css';
+const imagePath = process.env.PUBLIC_URL + '/Images/profilePic.jpg';
+
+
 export default function About() {
   return (
     <>
@@ -10,10 +13,10 @@ export default function About() {
       <div className="row m-3 p-1">
         <div className="display-6 text-center"><strong ><span className="text-decoration-underline my-3">Who</span> am I?</strong></div>
       </div>
-      <div className="row about-container mx-auto">
+      <div className="row about-container mx-auto p-5">
         <div className="col-sm"> 
-          <div className="profile-picture-container h-100 text-center p-2"> 
-            <img src='/Images/profilePic.jpg' alt="profile-pic" />
+          <div className="w-50 h-50 text-center p-2 profilePic"> 
+            <img src={imagePath} alt="profile-pic" width="200px" className="profpic"/>
       </div>
       </div>
         <div className="col-sm about-description h-100 text-center p-2">

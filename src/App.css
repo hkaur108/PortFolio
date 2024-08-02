@@ -136,6 +136,18 @@ body{
 
 }
 
+.profilePic{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+}
+
+.profpic{
+  width:100%;
+    border-radius: 50%;
+
+}
+
 /* **********************************Skills css*************************************** */
 
 
