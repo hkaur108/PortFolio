@@ -2,13 +2,13 @@ export const Project=[
   {  
     id:1,
     name:"Todo list Project",
-    img:'./Images/projectImages/todo.png',
+    img:'/Images/projectImages/todo.png',
     gitLink:'https://hkaur108.github.io/todolist/'
   },
     {  
     id:2,
     name:"E-commerce Website",
-    img:'./Images/projectImages/mobile.jpeg',
+    img:'/Images/projectImages/mobile.jpeg',
     gitLink:'https://hkaur108.github.io/e-commerce/'
 
   },
@@ -22,7 +22,7 @@ export const Project=[
  {  
     id:4,
     name:"Tic Tac Toe Game",
-    img:'../Images/projectImages/tictac.jpeg',
+    img:'/Images/projectImages/tictac.jpeg',
     gitLink:'https://hkaur108.github.io/tictactoe/'
 },
 //  {  
