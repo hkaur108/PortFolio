@@ -36,7 +36,7 @@ export default function Projects() {
         return(      
             <Card key={item.id} style={{ width: '230px' }} className='p-3 mx-auto mx-1'>
               <div className='imgContainer'>
-                  <Card.Img variant="top" src={process.env.PUBLIC_URL+ item.img} className='formatProjImg mt-1' />
+                  <Card.Img variant="top" src={process.env.PUBLIC_URL+ item.img} className='formatProjImg mt-1' alt={item.name}/>
               </div>
             <Card.Body>
             <Card.Title className='fs-6 fw-bold'>{item.name}</Card.Title>
