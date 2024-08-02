@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fb336a3c.css",
-    "main.js": "/portfolio/static/js/main.55e2e835.js",
+    "main.css": "/portfolio/static/css/main.6b836b57.css",
+    "main.js": "/portfolio/static/js/main.91fd081e.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/pexels-andrew-6633920.jpg": "/portfolio/static/media/pexels-andrew-6633920.31a5018a4af29ac17c3c.jpg",
     "static/media/Harpreet Kaur_FE.pdf": "/portfolio/static/media/Harpreet Kaur_FE.d203d8a7abd4dfdf8258.pdf",
@@ -9,12 +9,12 @@
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.fb336a3c.css.map": "/portfolio/static/css/main.fb336a3c.css.map",
-    "main.55e2e835.js.map": "/portfolio/static/js/main.55e2e835.js.map",
+    "main.6b836b57.css.map": "/portfolio/static/css/main.6b836b57.css.map",
+    "main.91fd081e.js.map": "/portfolio/static/js/main.91fd081e.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb336a3c.css",
-    "static/js/main.55e2e835.js"
+    "static/css/main.6b836b57.css",
+    "static/js/main.91fd081e.js"
   ]
 }
