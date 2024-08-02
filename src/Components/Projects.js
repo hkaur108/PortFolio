@@ -5,10 +5,6 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-const todo = process.env.PUBLIC_URL + '/images/projectImages/todo.png';
-const shoppingCart = process.env.PUBLIC_URL + '/images/my-image.jpg/shopp.png';
-const ecomm = process.env.PUBLIC_URL + '/images/my-image.jpg/projectImages/mobile.jpeg';
-const tictactoe = process.env.PUBLIC_URL + '/images/projectImages/tictac.jpeg';
 
 
 
